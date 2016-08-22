@@ -1,8 +1,9 @@
 package com.roc.TemplatePattern;
 
 /**
- * @author chenpeng19@baidu.com
- * @version 1.0
+ * 另一个实现类,实现需要差异化的细节步骤
+ *
+ * @author Roc
  * @title DesignPatterns
  * @date 16/8/22
  */
@@ -17,10 +18,5 @@ public class AbstractFlowImpl2 extends AbstractFlow {
     protected int step2() {
         System.out.println("AbstractFlowImpl2#step2");
         return 0;
-    }
-
-    @Override
-    protected void hook(String msg) {
-        System.out.println("AbstractFlowImpl2#" + msg);
     }
 }
