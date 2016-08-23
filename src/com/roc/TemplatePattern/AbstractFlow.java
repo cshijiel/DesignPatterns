@@ -25,7 +25,7 @@ public abstract class AbstractFlow {
         System.out.println("do some thing");
         step1();
         step2();
-        hook("Hello");
+        this.hook("Hello");
         System.out.println("do some thing finish!");
     }
 }

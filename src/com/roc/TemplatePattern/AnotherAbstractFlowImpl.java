@@ -7,16 +7,16 @@ package com.roc.TemplatePattern;
  * @title DesignPatterns
  * @date 16/8/22
  */
-public class AbstractFlowImpl2 extends AbstractFlow {
+public class AnotherAbstractFlowImpl extends AbstractFlow {
     @Override
     protected void step1() {
-        System.out.println("AbstractFlowImpl2#step1");
+        System.out.println("AnotherAbstractFlowImpl#step1");
 
     }
 
     @Override
     protected int step2() {
-        System.out.println("AbstractFlowImpl2#step2");
+        System.out.println("AnotherAbstractFlowImpl#step2");
         return 0;
     }
 }

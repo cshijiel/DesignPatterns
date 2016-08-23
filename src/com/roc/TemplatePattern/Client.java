@@ -14,7 +14,7 @@ public class Client {
 
         System.out.println("\n==========================\n");
 
-        flow = new AbstractFlowImpl2();
+        flow = new AnotherAbstractFlowImpl();
         flow.exe();
     }
 }
